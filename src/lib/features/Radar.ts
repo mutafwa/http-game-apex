@@ -8,7 +8,7 @@ export class Radar {
 
   constructor(
     private readonly canvas: HTMLCanvasElement,
-    private readonly maximumDistance = 500,
+    private readonly maximumDistance = 400,
     private readonly numberOfRings = 8) {
     this.context = canvas.getContext('2d')!;
   }
