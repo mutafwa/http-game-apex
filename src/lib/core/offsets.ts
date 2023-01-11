@@ -1,12 +1,12 @@
 export const offsets = {
   button: {
-    inSpeed: 0x7642b98,               // [Buttons]                        -> in_speed
-    inAttack: 0x7642bd0               // [Buttons]                        -> in_attack
+    inSpeed: 0x7666580,               // [Buttons]                        -> in_speed
+    inAttack: 0x76665d8               // [Buttons]                        -> in_attack
   },
   core: {
-    levelName: BigInt(0x1432ac8),     // [Miscellaneous]                  -> LevelName
-    clEntityList: BigInt(0x1b0e718),  // [Miscellaneous]                  -> cl_entitylist
-    localPlayer: BigInt(0x1ebf528)    // [Miscellaneous]                  -> LocalPlayer
+    levelName: BigInt(0x1449f00),     // [Miscellaneous]                  -> LevelName
+    clEntityList: BigInt(0x1b2a578),  // [Miscellaneous]                  -> cl_entitylist
+    localPlayer: BigInt(0x1edb670)    // [Miscellaneous]                  -> LocalPlayer
   },
   entity: {
     localOrigin: 0x158,               // [DataMap.CBaseViewModel]         -> m_localOrigin
@@ -23,8 +23,8 @@ export const offsets = {
     iTeamNum: 0x44c,                  // [RecvTable.DT_BaseEntity]        -> m_iTeamNum
     iName: 0x589,                     // [RecvTable.DT_BaseEntity]        -> m_iName
     lifeState: 0x798,                 // [RecvTable.DT_Player]            -> m_lifeState
-    vecPunchWeaponAngle: 0x2488,      // [DataMap.C_Player]               -> m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
-    viewAngle: 0x2584 - 0x14,         // [DataMap.C_Player]               -> m_ammoPoolCapacity - 0x14
-    bleedoutState: 0x2718             // [RecvTable.DT_Player]            -> m_bleedoutState
+    vecPunchWeaponAngle: 0x24a8,      // [DataMap.C_Player]               -> m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle
+    viewAngle: 0x25a4 - 0x14,         // [DataMap.C_Player]               -> m_ammoPoolCapacity - 0x14
+    bleedoutState: 0x2738             // [RecvTable.DT_Player]            -> m_bleedoutState
   }
 };
