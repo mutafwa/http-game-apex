@@ -45,7 +45,13 @@ npm install
 * Open the `http-game-apex` directory with *Visual Studio Code*.
 * Press `F5`, wait for compilation, and eventually *Google Chrome* will launch.
 
-6. Load as a *connector* in your `http-driver`:
+6. Run the line below in visual studio code:
+
+```
+npm run webpack:build
+```
+
+7. Load as a *connector* in your `http-driver`:
 
 * Use the *Google Chrome* window to navigate to your `http-driver`.
 * Load *http://0.0.0.0:3000/* as the *connector*. Replace `0.0.0.0` for your *network-resolvable* IP.
