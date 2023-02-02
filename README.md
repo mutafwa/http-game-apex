@@ -51,7 +51,17 @@ npm install
 npm run webpack:build
 ```
 
-7. Load as a *connector* in your `http-driver`:
+7. Right click, git bash here in the folder and run the lines one by one below:
+
+```
+git add --all
+
+git commit -m "update DATE"
+
+git push
+```
+
+8. Load as a *connector* in your `http-driver`:
 
 * Use the *Google Chrome* window to navigate to your `http-driver`.
 * Load *http://0.0.0.0:3000/* as the *connector*. Replace `0.0.0.0` for your *network-resolvable* IP.
